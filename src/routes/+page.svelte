@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Centerbox from '$lib/components/Centerbox.svelte';
 	import { onMount } from 'svelte';
 
 	let url = '';
@@ -29,7 +28,7 @@
 	});
 </script>
 
-<Centerbox>
+<div class="flex h-screen w-full flex-col items-center justify-center">
 	{#if !url.includes('?code=')}
 		<div class="max-w-xl wrap-normal">
 			<p class="text-red-500">
@@ -80,4 +79,4 @@
 			</button>
 		</div>
 	{/if}
-</Centerbox>
+</div>
