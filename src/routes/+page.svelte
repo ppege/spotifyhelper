@@ -13,13 +13,23 @@
 	let links = [
 		{
 			href: 'https://crates.io/crates/shuffler',
-			label: 'My crate, Shuffler, on crates.io',
+			label: 'My crate, Shuffler, on crates.io (what this website is for)',
 			key: 0
 		},
 		{
 			href: 'https://developer.spotify.com/documentation/web-api/tutorials/code-flow',
 			label: "Spotify's API docs on authentication and callbacks",
 			key: 1
+		},
+		{
+			href: 'https://toof.rs',
+			label: 'toof.rs, my software developer stuff-website',
+			key: 2
+		},
+		{
+			href: 'https://toofless.net',
+			label: 'toofless.net, my whatever else-website',
+			key: 3
 		}
 	];
 
